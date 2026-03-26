@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="5" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="777" height="454"/>
+    </constraints>
+    <properties>
+      <foreground color="-11571075"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6854b" class="javax.swing.JButton" binding="gegossenButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="48"/>
+          <text value="Jetzt gegossen"/>
+        </properties>
+      </component>
+      <component id="d1ca1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <text value="Feuchtigkeit:"/>
+        </properties>
+      </component>
+      <component id="329df" class="javax.swing.JLabel" binding="zuletztGedüngtLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <text value="Zuletzt gedüngt: --"/>
+        </properties>
+      </component>
+      <component id="91fbf" class="javax.swing.JLabel" binding="zuletztGedüngtWertLabel">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="2bdd5" class="javax.swing.JButton" binding="geduengtButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="48"/>
+          <text value="Jetzt gedüngt"/>
+        </properties>
+      </component>
+      <component id="79804" class="javax.swing.JLabel" binding="bonsaiLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="🌳 BONSAI"/>
+        </properties>
+      </component>
+      <component id="7526e" class="javax.swing.JLabel" binding="uhrzeitLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <text value="00:00:00"/>
+        </properties>
+      </component>
+      <component id="94fcc" class="javax.swing.JLabel" binding="zuletztGegossenWertLabel">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="a7c4d" class="javax.swing.JLabel" binding="zuletztGegossenLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <text value="Zuletzt gegossen: --"/>
+        </properties>
+      </component>
+      <component id="9db60" class="javax.swing.JTextField" binding="feuchtigkeitFeld">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font name="Arial Black" size="20"/>
+          <horizontalAlignment value="0"/>
+          <text value="-- %"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
